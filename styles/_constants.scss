@@ -1,0 +1,12 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,500,700");
+
+$paddingStd: 20px;
+$greencolor: #97d279;
+$lightgreencolor: #c0eea9;
+$textcolor: #090b08;
+
+@mixin styling-text {
+    max-width: 700px;
+    text-align: center;
+    padding: $paddingStd;
+}
